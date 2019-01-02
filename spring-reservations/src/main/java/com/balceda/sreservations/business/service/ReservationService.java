@@ -61,7 +61,7 @@ public class ReservationService {
         return roomReservations;
     }
 
-    private Date createDateFormatFromDateString(String dateString) {
+    public Date createDateFormatFromDateString(String dateString) {
         Date date = null;
         if (dateString != null) {
             try {
